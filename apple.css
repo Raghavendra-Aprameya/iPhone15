@@ -1,0 +1,303 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "SF Pro Text", "Myriad Set Pro", system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", "SF Pro Icons", "Apple Legacy Icons",
+    "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  /* color:rgba(255, 255, 255, 0.8) */
+}
+.india {
+  width: 1425px;
+  height: 70px;
+  background-color: #fbfbfd;
+  display: flex;
+  padding-left: 230.5px;
+  padding-right: 200.5px;
+
+  align-items: center;
+  padding-right: 30px;
+}
+.region {
+  width: 350px;
+  height: 36px;
+}
+.continue {
+  width: 101px;
+  height: 36px;
+  border-radius: 8px;
+  background-color: #272729;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 17px;
+  margin-left: 50px;
+}
+.india-p {
+  font-weight: 400;
+  font-size: 12px;
+  max-width: 430px;
+}
+.x {
+  margin-left: 30px;
+}
+nav {
+  height: 44px;
+  background-color: black;
+}
+.apple-logo {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 17px;
+  font-weight: 600;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 200.5px;
+  padding-right: 200.5px;
+}
+.nav-p {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: rgba(255, 255, 255, 0.8);
+}
+.credit {
+  height: 83px;
+  background-color: #272729;
+  color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  align-items: center;
+}
+.credit-div {
+  display: flex;
+  width: 980px;
+  height: 42px;
+  justify-content: center;
+  text-align: center;
+  margin-left: 222.5px;
+  margin-right: 222.5px;
+}
+span {
+  width: 350px;
+  font-size: 17px;
+  line-height: 1.2353641176;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  color: rgb(245, 245, 247);
+}
+a {
+  color: rgb(41, 151, 255);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.content {
+  /* height: ; */
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.iPhone15 {
+  margin-top: 60px;
+  font-size: 28px;
+  line-height: 1.1428571429;
+  font-weight: 600;
+  letter-spacing: 0.007em;
+  color: rgba(212, 209, 4, 0.471);
+}
+.buy {
+  width: 73px;
+  height: 44px;
+  background-color: rgb(0, 113, 227);
+  color: #fff;
+  font-weight: 400;
+  border-radius: 980px;
+  font-size: 17px;
+  margin-left: 670px;
+  margin-bottom: 30px;
+}
+.price {
+  font-size: 21px;
+  font-weight: 600;
+  letter-spacing: 0.011em;
+
+  color: #fff;
+  padding-bottom: 50px;
+}
+.iphone-img {
+  margin-left: 150px;
+}
+.highlight {
+  background-color: #0f0f11;
+  /* display: flex; */
+  padding-top: 150px;
+  position: relative;
+}
+.special-p {
+  color: #86868b;
+  font-size: 56px;
+  line-height: 1.0714285714;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  margin-left: 40px;
+  margin-right: 400px;
+}
+.high-a {
+  margin-right: 40px;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 1.1904761905;
+}
+.videoo {
+  margin-left: 80px;
+}
+.ad {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 600;
+  z-index: 4;
+  font-size: 28px;
+  letter-spacing: 0.007em;
+  line-height: 1.1428571429;
+  position: absolute;
+  top: 38%;
+  left: 7%;
+}
+.ad1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 600;
+  z-index: 4;
+  font-size: 28px;
+  letter-spacing: 0.007em;
+  line-height: 1.1428571429;
+  position: absolute;
+  top: 41%;
+  left: 7%;
+}
+.closer-look {
+  background-color: black;
+  padding-top: 150px;
+}
+
+.cl-img {
+  margin-left: 7%;
+}
+.features {
+  background-color: #0f0f11;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.features-p {
+  font-size: 80px;
+  line-height: 1.05;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  color: #fbfbfd;
+  margin-left: 120px;
+}
+.space {
+  margin-top: 60px;
+}
+.video2 {
+  margin-left: 120px;
+  margin-top: 40px;
+}
+.img1 {
+  margin-right: 25px;
+  margin-left: 120px;
+  margin-top: 10px;
+
+  animation: zoom-in 8s ease-out both;
+  /* animation-delay: 5s; */
+  animation-timeline: zoom-in scroll();
+}
+@keyframes zoom-in {
+  from {
+    width: 250px;
+    height: 300px;
+    opacity: 0;
+  }
+  to {
+    width: 575px;
+    height: 600px;
+    opacity: 100%;
+  }
+}
+.div-paras {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+
+.paras {
+  color: #86868b;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  letter-spacing: 0.011em;
+  font-weight: 600;
+  line-height: 1.381002381;
+  font-size: 21px;
+  width: 350px;
+  height: 150px;
+  margin-top: 60px;
+  animation: opaque 1s ease-out 1 normal forwards;
+}
+strong {
+  color: #fff;
+}
+@keyframes opaque {
+  from {
+    transform: translateY(70px);
+    opacity: 10%;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 100%;
+  }
+}
+.chip {
+  background-color: #0f0f11;
+}
+.chip {
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 300px;
+}
+.a17 {
+  font-size: 80px;
+  line-height: 1.05;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  /* font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif; */
+  color: white;
+}
+.sub-a17 {
+  font-size: 28px;
+  line-height: 1.1428571429;
+  font-weight: 600;
+  letter-spacing: 0.007em;
+  color: #86868b;
+}
+/* .a17-image {
+  animation: opaque 1s ease-out 1 normal both;
+} */
+
+.main-div {
+  display: flex;
+}
+.sub-div {
+  flex-direction: column;
+  margin-left: 50px;
+  animation: opaque 2s ease-out normal forwards;
+}
